@@ -16,6 +16,7 @@ public class User implements Serializable {
     private String aa;
     private String bb;
     private String github;
+    private String ssh;
     
     @Override
     public String toString() {
