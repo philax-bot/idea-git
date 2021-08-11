@@ -9,6 +9,15 @@ public class User {
     private String name;
     private Integer age;
     
+    @Override
+    public String toString() {
+        return "User{" +
+                "userid='" + userid + '\'' +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
+    
     public String getUserid() {
         return userid;
     }
