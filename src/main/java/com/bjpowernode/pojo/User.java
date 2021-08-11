@@ -1,10 +1,14 @@
 package com.bjpowernode.pojo;
 
+import java.io.Serializable;
+
 /**
  * @author Liu
  * @create 2021-08-11 10:48
  */
-public class User {
+public class User implements Serializable {
+    private static final long serialVersionUID = -953354225856066300L;
+    
     private String userid;
     private String name;
     private Integer age;
