@@ -12,6 +12,7 @@ public class User implements Serializable {
     private String userid;
     private String name;
     private Integer age;
+    private String address;
     
     @Override
     public String toString() {
